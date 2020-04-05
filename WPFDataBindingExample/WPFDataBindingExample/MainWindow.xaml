@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFDataBindingExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDataBindingExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Slider Name="ValueSlider" Minimum="0" Maximum="100" VerticalAlignment="Top" Margin="25" Height="25"/>
+        <!--Value="{Binding ElementName=ValueText,Path=Text,Mode=TwoWay,Delay=500}"/>-->
+        <TextBox x:Name="ValueText" Height="30" FontFamily="20" Width="200"
+                 Text="{Binding ElementName=ValueSlider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,
+             StringFormat=f2}"/>
+
+    </StackPanel>
+</Window>
