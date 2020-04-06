@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataBindingExample", "WPFDataBindingExample\WPFDataBindingExample.csproj", "{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryResource", "BinaryResource\BinaryResource.csproj", "{9067F033-8D9E-46F3-9405-AE470E9E02A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9067F033-8D9E-46F3-9405-AE470E9E02A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9067F033-8D9E-46F3-9405-AE470E9E02A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9067F033-8D9E-46F3-9405-AE470E9E02A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9067F033-8D9E-46F3-9405-AE470E9E02A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
