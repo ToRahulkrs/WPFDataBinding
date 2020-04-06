@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace WPFBindingCollection
@@ -31,7 +32,9 @@ namespace WPFBindingCollection
 
         private int age;
         public int Age {
-            get { return age; }
+            get {
+                Thread.Sleep(6000); 
+                return age;}
             set
             {
                 age = value;

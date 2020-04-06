@@ -34,7 +34,7 @@
                     <TextBlock VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" x:Name="LastName" Width="120"
                        Text="{Binding LastName}"/>
                     <TextBox VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" x:Name="Age" Width="120"
-                     Text="{Binding Age}"/>
+                     Text="{Binding Age,IsAsync=True}"/>
                 </Grid>
             </StackPanel>
         </DataTemplate>
