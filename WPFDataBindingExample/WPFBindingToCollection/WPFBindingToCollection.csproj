@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}</ProjectGuid>
+    <ProjectGuid>{2A3EB3C7-C786-48DB-9EF2-9499A0BD14A1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WPFDataBindingExample</RootNamespace>
-    <AssemblyName>WPFDataBindingExample</AssemblyName>
+    <RootNamespace>WPFBindingToCollection</RootNamespace>
+    <AssemblyName>WPFBindingToCollection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,7 +53,6 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -69,7 +68,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,15 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\Image1.jpg" />
-    <Resource Include="Image\Image2.jpg" />
-    <Resource Include="Image\Image3.jpg" />
-    <Resource Include="Image\Image4.jpg" />
-    <Resource Include="Image\Image5.jpg" />
-    <Resource Include="Image\Item1.png" />
-    <Resource Include="Image\item2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

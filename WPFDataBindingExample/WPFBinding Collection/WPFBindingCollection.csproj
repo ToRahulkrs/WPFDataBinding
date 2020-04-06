@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}</ProjectGuid>
+    <ProjectGuid>{EB13EE0A-0DD2-498C-A7F1-AED58F63C02C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WPFDataBindingExample</RootNamespace>
-    <AssemblyName>WPFDataBindingExample</AssemblyName>
+    <RootNamespace>WPFBinding_Collection</RootNamespace>
+    <AssemblyName>WPFBinding Collection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -96,12 +96,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WPFDataBindingExample\WPFDataBindingExample.csproj">
+      <Project>{AD1C2FAA-93A9-491A-8DBB-20AD617D0E51}</Project>
+      <Name>WPFDataBindingExample</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Image3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Image5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Item1.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\item2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
