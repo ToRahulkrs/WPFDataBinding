@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFResourceExample", "WPFRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlExample", "UserControlExample\UserControlExample.csproj", "{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApplictionModel", "WPFApplictionModel\WPFApplictionModel.csproj", "{62BA43FF-0479-4DDA-917F-1F5946870AE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BA43FF-0479-4DDA-917F-1F5946870AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BA43FF-0479-4DDA-917F-1F5946870AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BA43FF-0479-4DDA-917F-1F5946870AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BA43FF-0479-4DDA-917F-1F5946870AE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
