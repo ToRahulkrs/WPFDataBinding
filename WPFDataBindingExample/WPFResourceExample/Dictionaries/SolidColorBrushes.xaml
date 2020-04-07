@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFResourceExample.Dictionaries">
+    <SolidColorBrush x:Key="RedBrush" Color="Red"/>
+    <SolidColorBrush x:Key="GreenBrush" Color="Green"/>
+    <SolidColorBrush x:Key="BlueBrush" Color="Blue"/>
+
+</ResourceDictionary>
