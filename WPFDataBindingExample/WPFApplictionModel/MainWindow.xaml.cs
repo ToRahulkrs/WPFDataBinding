@@ -69,10 +69,17 @@ namespace WPFApplictionModel
             //    });
             //});
             //Thread.Sleep(10000);
-            Thread t = new Thread(ThrowException);
-            t.Start();
+            //Thread t = new Thread(ThrowException);
+            //t.Start();
 
             //ThrowException();
+
+            Task.Run(() =>
+            {
+                throw new Exception();
+            });
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

@@ -49,6 +49,7 @@ namespace WPFApplictionModel
         private void TaskSchedulerExceptionOnUnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs e)
         {
             Debug.WriteLine("TaskSchedulerExceptionOnUnobservedTaskException");
+            e.SetObserved();
         }
 
         private void CurrentDomainOnUnhandledException(object sender, UnhandledExceptionEventArgs e)
