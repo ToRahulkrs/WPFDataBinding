@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryResource", "BinaryRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFResourceExample", "WPFResourceExample\WPFResourceExample.csproj", "{1F637C0E-DFA6-45AD-A57C-D49572169454}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlExample", "UserControlExample\UserControlExample.csproj", "{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1F637C0E-DFA6-45AD-A57C-D49572169454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F637C0E-DFA6-45AD-A57C-D49572169454}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F637C0E-DFA6-45AD-A57C-D49572169454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7261B6F6-0A66-418E-BA13-2C33D3DC58DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
